@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Handjet&family=Lumanosimo&display=swap');
+body {
+    font-family: 'Lumanosimo', cursive;
+    font-size: 16px;
+    font-weight: normal;
+    background: #f1f1f1;
+    color: #312f2f;
+
+}
+
+a {
+    color: blue;
+}
+
+.fa.fa-vk{
+    padding: 5px;
+    font-size: 30px;
+    text-decoration: none; 
+    background: #3B5998;
+    color: white;
+    cursor: pointer;
+}
+
+.fa.fa-vk:hover{
+    opacity: 0.7;
+}
+
+.fa.fa-vk:active {
+    color: black;
+}
+
+.btn {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+
+.container {
+    max-width: 750px;
+    padding-top: 25px;
+    margin: auto;
+}
+
+.photo {
+    
+    width: 250px;
+    box-shadow: 13px 13px 14px rgba(184, 21, 21, 0.25);
+    border-radius: 25px;
+}
+
+.info {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.info-text{
+    margin-left: 30px;
+}
+.info-text p {
+    font-style:italic;
+    font-weight: bold;
+    color: #3b3838;
+
+   
+}
+
+
+.card {
+    border-radius: 30px;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+    
+}
+.card h2 {
+    margin-bottom: 20px;
+}
+
+
+.bg1 {
+    
+    background: #fff9dc ;
+    
+}
+
+
+.bg2 {
+    
+    background: paleturquoise;
+    
+   
+}
+
+.bg2 h2 {
+    padding-left: 6px;
+}
+
+.hobbies {
+    padding: 0px 20px;
+    list-style-position: right;
+
+}
+
+.hobbies li {
+    margin-bottom: 5px;
+    margin-left: 2px;
+   
+   
+    
+}
+
+
+.table {
+    width: 100%;
+    
+}
+
+.table th {
+    padding-right: 160px;
+    
+}
+
+.table td {
+    padding-bottom: 10px;
+    padding-left: 6px;
+    
+}
+
+.form {
+    background: #f1f1f1;
+    border-radius: 30px;
+    padding: 5px  20px;
+}
+
+.form h2 {
+    text-align: center;
+}
+
+.group-row{
+    margin-bottom: 10px;
+    display: flex;
+}
+.group-row .group {
+
+    margin-right: 20px;
+    width: 50%  ;
+ 
+}
+
+.group-row .group:last-child {
+    margin-right: 0;
+ 
+ }
+ 
+
+
+.group label {
+    display: block;
+    font-size: 20px;
+
+    
+}
+
+.group input, textarea {
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+
+
+
+
+
+
+
